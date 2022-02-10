@@ -18,6 +18,8 @@ jobs:
 #       run: ./configure
     - name: make
       run: make
+    - name: show version
+      run: cat Version.cpp
 #     - name: make check
 #       run: make check
 #     - name: make distcheck
